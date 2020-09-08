@@ -47,7 +47,7 @@ body {
 
 .content-name-logo {
     background-image: url('../images/main-image.jpg');
-    background-size: 202vh 140vh;
+    background-size: 100% 140vh;
     min-height: 45vh;
     z-index: -10;
 }
