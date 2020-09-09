@@ -1,6 +1,8 @@
 .menu-content-grid-container {
+    background-color: rgba(131, 131, 131, 0.2);
     display: grid;
     grid-template-columns: repeat(2, 100vh);
+    min-height: 85vh;
 }
 
 .menu-content-item {
