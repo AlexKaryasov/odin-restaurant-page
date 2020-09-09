@@ -1,0 +1,16 @@
+.menu-content-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 100vh);
+}
+
+.menu-content-item {
+    border: 1px black solid;
+}
+
+.menu-content-item-name {
+    float: left;
+}
+
+.menu-content-item-price {
+    float: right;
+}
