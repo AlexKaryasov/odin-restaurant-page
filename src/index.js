@@ -1,1 +1,3 @@
-console.log("Test console log changed again");
+import renderAboutPage from './about'
+
+renderAboutPage()

@@ -1,0 +1,42 @@
+.about-content-name-logo {
+    background-image: url('../images/main-image.jpg');
+    background-size: 100% 140vh;
+    min-height: 45vh;
+    z-index: -10;
+}
+
+.about-content-name {
+    color: #f9f6f3;
+    float: right;
+    margin: 5vh;
+    align-self: center;
+}
+
+.about-content-name h1 {
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+.about-content-name p {
+    font-size: 3vh;
+    font-weight: lighter;
+}
+
+.about-content-correspondent-info {
+    background-color: rgba(131, 131, 131, 0.2);
+    text-align: center;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.about-content-correspondent-info h2 {
+    font-size: 4vh;
+    font-weight: bold;
+    padding: 1vh;
+}
+
+.about-content-correspondent-info p {
+    font-size: 2vh;
+    font-weight: lighter;
+    padding: 1vh;
+}
