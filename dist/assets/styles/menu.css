@@ -1,18 +1,35 @@
 .menu-content-grid-container {
     background-color: rgba(131, 131, 131, 0.2);
     display: grid;
-    grid-template-columns: repeat(2, 100vh);
-    min-height: 85vh;
+    grid-template-columns: repeat(autofit, minmax(20vh, 100vh));
 }
 
 .menu-content-item {
     border: 1px black solid;
+    min-height: 10vh;
+    position: relative;
 }
 
 .menu-content-item-name {
     float: left;
+    position: absolute;
+    top: 50%;
+}
+
+.menu-content-item-name h4 {
+    font-size: 2vh;
+    font-weight: bolder;
+}
+
+.menu-content-item-name p {
+    font-size: 1vh;
+    font-weight: lighter;
 }
 
 .menu-content-item-price {
     float: right;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    font-weight: bold;
 }
