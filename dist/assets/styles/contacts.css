@@ -1,0 +1,17 @@
+    .contact-container {
+        background-color: rgba(131, 131, 131, 0.2);
+        text-align: center;
+        min-height: 85vh;
+    }
+    
+    .contact-container h3 {
+        font-size: 3vh;
+        font-weight: bolder;
+        padding: 2vh;
+    }
+    
+    .contact-container p {
+        font-size: 2vh;
+        font-weight: lighter;
+        margin: 1vh;
+    }

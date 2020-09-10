@@ -11,7 +11,7 @@ function MenuItem(name, description, price) {
 menuItems.push(new MenuItem('Cappuccino', 'Good Old Cappuccino', 180))
 menuItems.push(new MenuItem('Frappuccino', 'An Icy One', 200))
 menuItems.push(new MenuItem('Peppuccino', 'Coffee for your Perrot', 80))
-menuItems.push(new MenuItem('Rissuiano', 'Party Like A Russian!', 18000))
+menuItems.push(new MenuItem('Russiano', 'Party Like A Russian!', 18000))
 
 const renderMenuPage = () => {
     let menuGridContainer = document.createElement('div')

@@ -6,7 +6,7 @@
 
 .menu-content-item {
     border: 1px black solid;
-    min-height: 10vh;
+    min-height: 14vh;
     position: relative;
 }
 
@@ -17,18 +17,19 @@
 }
 
 .menu-content-item-name h4 {
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: bolder;
 }
 
 .menu-content-item-name p {
-    font-size: 1vh;
+    font-size: 2vh;
     font-weight: lighter;
 }
 
 .menu-content-item-price {
     float: right;
     position: absolute;
+    font-size: 3vh;
     top: 50%;
     right: 0%;
     font-weight: bold;
