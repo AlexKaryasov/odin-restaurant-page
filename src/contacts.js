@@ -5,7 +5,7 @@ const renderContactsPage = () => {
     let contactContainer = document.createElement('div')
     contactContainer.classList.add('contact-container')
     let h3 = document.createElement('h3')
-    h3.innerHTML = 'Where and how you can find us?'
+    h3.innerHTML = 'Where and how can you find us?'
     contactContainer.appendChild(h3)
 
     let para = document.createElement('p')
